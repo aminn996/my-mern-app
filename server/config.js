@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://aceflaatiri2:HugBIB9IBbbU517C@cluster0.myoejdu.mongodb.net/mernapp?retryWrites=true&w=majority';
+const MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://baltimedamin909_db_user:HugBIB9IBbbU517C@cluster0.myoejdu.mongodb.net/cluster0?retryWrites=true&w=majority';
 
 const connectDB = async () => {
   try {
@@ -16,3 +16,4 @@ const connectDB = async () => {
 };
 
 module.exports = connectDB;
+
